@@ -1,0 +1,49 @@
+<svg width="350" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e27;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1f3a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ff6b9d;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="350" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Accent overlay -->
+  <rect width="350" height="400" fill="url(#accentGradient)" opacity="0.5"/>
+  
+  <!-- Head circle -->
+  <circle cx="175" cy="120" r="50" fill="#00d4ff" opacity="0.2" stroke="#00d4ff" stroke-width="2"/>
+  <circle cx="175" cy="120" r="48" fill="#1a1f3a"/>
+  
+  <!-- Face placeholder with tech icons -->
+  <text x="175" y="130" font-size="60" fill="#00d4ff" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">👨‍💻</text>
+  
+  <!-- Body - Tech inspired design -->
+  <rect x="120" y="180" width="110" height="140" rx="20" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Code brackets on sides -->
+  <text x="95" y="200" font-size="40" fill="#ff6b9d" opacity="0.6" font-family="monospace">&lt;</text>
+  <text x="260" y="200" font-size="40" fill="#ffd700" opacity="0.6" font-family="monospace">/&gt;</text>
+  
+  <!-- Animated dots -->
+  <circle cx="135" cy="220" r="5" fill="#00d4ff" opacity="0.7"/>
+  <circle cx="175" cy="220" r="5" fill="#ff6b9d" opacity="0.7"/>
+  <circle cx="215" cy="220" r="5" fill="#ffd700" opacity="0.7"/>
+  
+  <!-- Tech elements inside body -->
+  <text x="175" y="280" font-size="14" fill="#00d4ff" text-anchor="middle" font-family="monospace" opacity="0.8">CODE</text>
+  <text x="175" y="300" font-size="14" fill="#ff6b9d" text-anchor="middle" font-family="monospace" opacity="0.8">ENGINEER</text>
+  
+  <!-- Decorative lines -->
+  <line x1="100" y1="320" x2="250" y2="320" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+  <line x1="100" y1="340" x2="250" y2="340" stroke="#ff6b9d" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Bottom tagline -->
+  <text x="175" y="375" font-size="12" fill="#a8adc8" text-anchor="middle" font-family="Arial, sans-serif">Replace with your photo</text>
+</svg>
